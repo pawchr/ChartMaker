@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"><script src="/lib/chart.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        
+
+    </head>
+    <body>
+        <header>
+            Chart Maker - make your own chart
+        </header>
+        <div class="canvas">
+            <canvas id="chart" width="600" height="400"></canvas>
+        </div>
+
+        <div class="inputy">
+            <input id="title" placeholder="Insert title" onchange="setTitle()"><br>
+            <input id="kolumny" placeholder="How many columns?" onchange="columns()">
+            <form id="columnInputs"><br></form>
+        </div>   
+        
+        
+    <script src="js/script.js"></script>
+
+    </body>
+</html>

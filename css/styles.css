@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+header{
+    background: #E9E5F4;
+    border: solid 1px;
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 42px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+    color:  #20285E;
+
+}
+
+.canvas{
+    width: 45%;
+    
+    background: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body{
+    background:  linear-gradient(90deg, rgba(149,204,244,1) 35%, rgba(128,155,243,1) 100%);;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Archivo Black', regular 400;
+}
+
+
+.inputy {
+    width: 45%;
+    position: fixed;
+    top:5.5rem;
+    left:52%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+
+#title{
+    border-radius: 7px;
+    width:75%;
+    height: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: rgba(255,255,255, 0.45) 0px 25px 20px -20px;
+}
+
+#kolumny{
+    border-radius: 7px;
+    width:75%;
+    height: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: rgba(255,255,255, 0.45) 0px 25px 20px -20px;
+}
+
+#columnInputs input{
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(255,255,255, 0.45) 0px 25px 20px -20px;
+    
+    width:40%;
+    
+}
+
